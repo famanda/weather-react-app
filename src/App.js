@@ -6,9 +6,9 @@ export default function App() {
     <div className="App">
       <h1>Weather App</h1>
       <footer>
-        Project coded by <a href="https://www.linkedin.com/in/feliciaamanda" target="_blank">Felicia Amanda</a>
+        Project coded by <span href="https://www.linkedin.com/in/feliciaamanda" target="_blank">Felicia Amanda</span>
         {""} and is {""}
-      <a href="https://github.com/famanda/weather-react-app" target="_blank">open-sourced on GitHub</a>
+      <span href="https://github.com/famanda/weather-react-app" target="_blank">open-sourced on GitHub</span>
       </footer>
     </div>
   );
