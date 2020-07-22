@@ -7,6 +7,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Toronto"/>
+        <br />
+        <Weather defaultCity="Montreal"/>
+        <br />
+        <Weather defaultCity="Jakarta"/>
        <footer>
           Project coded by {""}
           <a href="https://www.linkedin.com/in/feliciaamanda">
