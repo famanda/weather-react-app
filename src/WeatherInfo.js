@@ -7,7 +7,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
     <h1>{props.data.city}</h1>
       <ul>
-        <li>Last updated: <FormattedDate date={props.data.date} /></li>
+        <li><FormattedDate date={props.data.date} /></li>
         <li className="description">{props.data.description}</li>
         <li>Feels like: {Math.round(props.data.feels_like)}°C</li>
       </ul>
